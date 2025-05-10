@@ -26,7 +26,7 @@ def get_weather():
     output_label.config(text=result)
 
 w = Tk()
-photo = PhotoImage(file = "C:\\Users\\abdul\\Desktop\\Weather App\\Weather-App\\cloudy.png")
+photo = PhotoImage(file = "C:\\Users\\abdul\\Desktop\\Weather App\\cloudy.png")
 w.iconphoto(False, photo)
 w.title("AccuWeather")
 w.geometry("300x400")
